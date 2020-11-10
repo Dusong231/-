@@ -1,0 +1,439 @@
+.all {
+    width: 100%;
+    min-width: 1342px;
+}
+
+.bd {
+    width: 1342px;
+    margin: 0 auto;
+
+}
+
+.header {
+    height: 771px;
+    width: 1341px;
+    position: relative;
+    /* display: block; */
+
+
+}
+
+.header .af :first-child {
+    background: url(../img/header.jpg) no-repeat -240px 0;
+    width: 1341px;
+    height: 703px;
+    position: relative;
+    z-index: 11;
+}
+
+.header .af :nth-child(2) {
+    height: 90px;
+    width: 1341px;
+    background: url(../img/bg_configuration1.jpg) repeat-x;
+    position: relative;
+    top: -21px;
+    z-index: 0;
+}
+
+.header .bf {
+    position: relative;
+    height: 203px;
+    width: 1200px;
+    top: -155px;
+    background: url(../img/h_info.png);
+    z-index: 333;
+    left: 70px;
+}
+
+.header .bf img {
+    width: 296px;
+    height: 160px;
+
+}
+
+.content {
+    width: 1342px;
+    height: 1677px;
+    display: block;
+    background: url(../img/i_back.jpg) no-repeat;
+}
+
+.content .main {
+    width: 1200px;
+    height: 744px;
+    margin: 0 auto;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content .main_roll {
+    width: 750px;
+    height: 555px;
+    overflow: hidden;
+    float: left;
+}
+
+.content .main_roll a {
+    width: 750px;
+    height: 390px;
+    float: left;
+
+
+}
+
+.content .roll {
+    padding-top: 69px;
+    width: 3750px;
+    position: relative;
+
+
+}
+
+.content .news {
+    width: 430px;
+    height: 470px;
+    float: right;
+    margin-top: 73px;
+}
+
+.content .woderful_vedio {
+    width: 1200px;
+    height: 247px;
+
+}
+
+#dot {
+    width: 222px;
+    height: 89px;
+    position: relative;
+    top: 39px;
+    left: 511px;
+}
+
+#dot .on {
+    background-color: blue;
+}
+
+#dot span {
+    display: block;
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-left: 11px;
+    background-color: #fff;
+}
+
+.content .news>ul {
+    width: 415px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+}
+
+.content .news p span {
+    text-align: center;
+    color: #e69800;
+    font-size: 16px;
+    display: block;
+    white-space: nowrap;
+    padding: 11px;
+
+}
+
+.content .news .navChange div {
+    width: 430px;
+    height: 330px;
+    display: none;
+
+}
+
+/* .blocks{
+    display: block !important;
+} */
+#navs span {
+    cursor: pointer;
+    height: 39px;
+    line-height: 45px;
+    padding: 0px 11px;
+}
+
+#navs .on {
+    border-bottom: 6px solid orange;
+    font-weight: 900;
+
+}
+
+.content .news div ul li {
+    padding: 11px;
+}
+
+.content .news div ul span {
+    float: right;
+}
+
+.news p {
+    width: 343px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+
+.news p a {
+    color: orange;
+    width: 251px;
+
+
+}
+
+.woderful_vedio>p {
+    width: 1200px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    line-height: 40px;
+}
+
+.woderful_vedio div {
+    width: 1200px;
+    height: 190px;
+
+}
+
+.woderful_vedio div ul {
+    width: 1200px;
+    height: 180px;
+    display: block;
+    margin-top: 8px;
+}
+
+.woderful_vedio ul li {
+    width: 290px;
+    height: 180px;
+    float: left;
+    background: #fff;
+    list-style: none;
+
+
+}
+
+.woderful_vedio .woderful_vedio_content .imgs {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.woderful_vedio .woderful_vedio_content .stop {
+    position: relative;
+    left: 127px;
+    top: -152px;
+    width: 45px;
+    height: 45px;
+    z-index: 111;
+}
+
+.woderful_vedio .woderful_vedio_content p {
+    color: #000;
+    font-size: 12px;
+    background: url(../img/embellish_spr.png);
+    background-position: -782px -244px;
+    width: 100%;
+    margin-top: -36px;
+    position: relative;
+    z-index: 2;
+    line-height: 98px;
+    text-indent: 4px;
+
+}
+
+.woderful_vedio .woderful_vedio_content i {
+    display: block;
+
+}
+
+.content>i {
+    display: block;
+    width: 1342px;
+    height: 89px;
+    margin-top: 70px;
+    background: url(../img/bg_configuration2.jpg);
+}
+
+.content .configuration {
+    width: 1342px;
+    height: 694px;
+    background: #000;
+}
+
+.content .con_main {
+    width: 1200px;
+    height: 690px;
+
+    margin: 0 auto;
+}
+
+.peizhi {
+    font-family: microsoft yahei;
+    font-size: 22px;
+    color: #e69800;
+    padding-top: 30px;
+    line-height: 22px;
+}
+
+.configuration .car {
+    position: relative;
+    top: -569px;
+    left: 942px;
+    width: 328px;
+    height: 313px;
+    background: url(../img/汽车.jpg);
+}
+
+.configuration h1 {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.configuration h1 span {
+    color: #e69800;
+
+}
+
+.con_wrap {
+    width: 1100px;
+    height: 569px;
+}
+
+.con_wrap .af {
+    width: 1040px;
+    height: 279px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed gray;
+}
+
+.con_wrap .bf {
+    width: 1200px;
+    height: 248px;
+}
+
+.con_wrap .af ul {
+    width: 678px;
+    height: 57px;
+    line-height: 57px;
+    border-bottom: 1px dotted gray;
+}
+
+.con_wrap .af ul span {
+    float: left;
+    margin-left: 46px;
+    color: white;
+    cursor: pointer;
+    height: 51px;
+    padding: 0 11px;
+}
+
+.con_wrap .af ul .on {
+    border-bottom: 6px solid orange;
+    color: orange;
+}
+
+.af_content {
+    width: 688px;
+    height: 259px;
+}
+
+.af_content div {
+    width: 688px;
+    height: 259px;
+    display: none;
+}
+
+.af_content h4,
+p span {
+    color: white;
+    font-size: 13px;
+}
+
+.af_content p {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.af_content div p span {
+    padding-right: 91px;
+    font-size: 13px;
+}
+
+.hard_test {
+    float: left;
+    width: 545px;
+    height: 248px;
+    border-right: 1px dashed gray
+}
+
+.hard_test h3 {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #d98500;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+}
+
+.hard_test div {
+    float: left;
+    width: 190px;
+
+}
+
+.hard_test .wegame {
+    margin-right: 83px;
+}
+
+.hard_test p {
+    /* width: 191px;
+    height: 38px; */
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.hard_test p a {
+    margin-top: 1px;
+    display: inline-block;
+    width: 126px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    background: #e69800;
+}
+
+.hard_test h4 {
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.vx {
+    width: 520px;
+    height: 248px;
+    float: right;
+    /* padding: 0 0 0 84px; */
+}

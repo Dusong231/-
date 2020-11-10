@@ -1,0 +1,65 @@
+@keyframes partOne {
+    from {
+        opacity: 0;
+        /* width: 255px; */
+    }
+
+    to {
+        opacity: 1;
+        /* width: 465px; */
+    }
+}
+
+@keyframes partTwo_af {
+    from {
+        opacity: 0;
+        left: 211px;
+        width: 411px;
+    }
+
+    to {
+        opacity: 1;
+        left: 448px;
+        width: 611px;
+    }
+}
+
+@keyframes partTwo_bf {
+    from {
+        opacity: 0;
+        left: 929px;
+        width: 611px;
+    }
+
+    to {
+        opacity: 1;
+        width: 944px;
+
+    }
+}
+
+@keyframes partThree_one {
+    from {
+        opacity: 0;
+        left: 222px;
+
+    }
+
+    to {
+
+        opacity: 1;
+        left: 433px;
+    }
+}
+
+@keyframes partThree_two {
+    from {
+        opacity: 0;
+        top: 711px;
+    }
+
+    to {
+        opacity: 1;
+        top: 354px
+    }
+}

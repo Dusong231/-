@@ -1,0 +1,185 @@
+.all {
+    width: 100%;
+
+}
+
+.bd {
+    width: 1342px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 47px;
+    background-color: #333;
+    position: relative;
+
+
+}
+
+header a {
+    position: absolute;
+    top: 6px;
+    left: 66px;
+    width: 145px;
+    height: 35px;
+    display: block;
+}
+
+header a img {
+    width: 145px;
+    height: 35px;
+}
+
+.content .af,
+.bf {
+    position: relative;
+    min-width: 1342px;
+    height: 900px;
+    /* background: url(../img/背景易.jpg) center no-repeat; */
+}
+
+.content .af {
+    background: url(../img/背景易.jpg) center no-repeat;
+}
+
+.content .bf {
+    background: url(../img/two.png) center no-repeat;
+    overflow: hidden
+}
+
+.content .content_man {
+    width: 490px;
+    height: 739px;
+    position: absolute;
+    top: 11%;
+    left: 7%;
+    /* animation: partOne 5s linear 1; */
+    opacity: 0;
+}
+
+.content_word {
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    width: 554px;
+    opacity: 0;
+    /* animation:  partOne 5s linear 1 ; */
+
+}
+
+.content_two {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    width: 253px;
+    opacity: 0;
+    /* animation:  partOne 5s linear 1 ; */
+}
+
+.content_five {
+    position: absolute;
+    left: 74%;
+    top: 54%;
+    opacity: 0;
+    /* animation:  partOne 5s linear 1 ; */
+
+
+}
+
+.content_six {
+    position: absolute;
+    left: 74%;
+    top: 36%;
+    opacity: 0;
+    /* animation:  partOne 5s linear 1 ; */
+
+}
+
+/* 动画效果1 */
+.ani {
+    animation: partOne 1s linear 1 forwards;
+
+}
+
+.content .bf .bf_two {
+    position: absolute;
+    left: -13px;
+    top: 36px;
+    opacity: 0;
+
+}
+
+.content .bf .bf_one {
+    position: absolute;
+    left: 312px;
+    width: 944px;
+    top: 176px;
+    opacity: 0;
+
+
+}
+
+/* 动画效果2 */
+.aniTwo_af {
+    animation: partTwo_af 1s linear 1 forwards;
+}
+
+.aniTwo_bf {
+    animation: partTwo_bf 1s linear 1 forwards;
+}
+
+.content .cf {
+    position: relative;
+    min-width: 1342px;
+    height: 1100px;
+    background: url(../img/three.png) center no-repeat;
+    margin-top: -243px;
+}
+
+.content .cf .assit {
+    position: absolute;
+    top: 143px;
+    left: 124px;
+    opacity: 0;
+}
+
+.content ul {
+    width: 1177px;
+    height: 499px;
+    position: absolute;
+    top: 271px;
+    left: 239px;
+    opacity: 0;
+}
+
+.content ul img {
+    width: 435px;
+    height: 158px;
+}
+
+.aniThree_af {
+    animation: partThree_one 1s linear 1 forwards;
+}
+
+.aniThree_bf {
+    animation: partThree_two 1s linear 1 forwards;
+}
+
+#footer_ied {
+    text-align: center;
+    height: 70px;
+    background: #131313;
+}
+
+#footer_ied p {
+    color: #6e6e6e;
+    line-height: 24px;
+    font-size: 10px;
+    margin: 0;
+}
+
+#footer_ied a {
+    color: #6e6e6e;
+    font-size: 12px;
+}
